@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Anonymous Apex code to be executed after Sandbox/Scratch Org Creation --></help>
+    <label><!-- Apex After Org Creation --></label>
+    <name>copado_envmgr__ApexAfterOrgCreation__c</name>
+</CustomFieldTranslation>

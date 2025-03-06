@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Set this value if you want to create a pool of available Orgs. Every time an Org is used, a new org will be created behind the scenes, so the next time an org is desired, it is already available.
+
+If this is not set, the Enviroments will be created on-demand -->
+    </help>
+    <label><!-- Number of desired Available Orgs --></label>
+    <name>copado_envmgr__DesiredAvailableOrgs__c</name>
+</CustomFieldTranslation>

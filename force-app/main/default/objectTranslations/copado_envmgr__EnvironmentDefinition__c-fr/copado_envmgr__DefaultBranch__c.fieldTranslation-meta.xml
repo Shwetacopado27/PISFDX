@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Default branch where the metadata will be taken. It must be part of the Project/Pipeline related to this Environment, or empty (meaning that no deployment will be run) --></help>
+    <label><!-- Source Branch of the Metadata --></label>
+    <name>copado_envmgr__DefaultBranch__c</name>
+</CustomFieldTranslation>

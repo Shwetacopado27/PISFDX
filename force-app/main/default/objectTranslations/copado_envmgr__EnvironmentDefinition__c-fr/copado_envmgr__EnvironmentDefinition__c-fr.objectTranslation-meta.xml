@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Environment Definition Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Definition --></label>
+            <section>Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Optional Apex Code to execute --></label>
+            <section>Optional Apex Code to execute</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Org --></label>
+        <name>copado_envmgr__Create_Org</name>
+    </quickActions>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Anonymous Apex code to be executed after all the Salesforce Packages are installed --></help>
+    <label><!-- Apex After Package Installation --></label>
+    <name>copado_envmgr__ApexAfterPackageInstallation__c</name>
+</CustomFieldTranslation>

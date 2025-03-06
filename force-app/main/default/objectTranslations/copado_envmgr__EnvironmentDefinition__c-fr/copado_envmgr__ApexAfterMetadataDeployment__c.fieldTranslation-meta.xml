@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Anonymous Apex code to be executed after all the Metadata has been deployed --></help>
+    <label><!-- Apex After Metadata Deployment --></label>
+    <name>copado_envmgr__ApexAfterMetadataDeployment__c</name>
+</CustomFieldTranslation>

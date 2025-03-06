@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Desired username pattern. You can use special variables such as {!RANDOM} to insert a 4 digit random number: 
+
+qauser-{!RANDOM}@copado.com or qauser@copado.com.user{!RANDOM} -->
+    </help>
+    <label><!-- Username --></label>
+    <name>copado_envmgr__Username__c</name>
+</CustomFieldTranslation>
