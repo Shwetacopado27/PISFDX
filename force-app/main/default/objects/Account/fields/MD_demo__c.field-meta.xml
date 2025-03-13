@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MD_demo__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>sdgfsgesfgfgfghvjvjh</description>
+    <inlineHelpText>cscdsvcdsvds</inlineHelpText>
+    <label>MD_demo</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
