@@ -1,23 +1,41 @@
 public class Demo3 {
 
-  // PMD Violation: Method names should be in camelCase
-  public void mainvaluemethod()
-  {
-    // PMD Violation: 'string' should be 'String'
-    string websiteURL = 'www.apexhours.com';
-    
-    // PMD Violation: 'system' should be 'System'
-    system.debug('before passbyvalue:' + websiteURL);
-    
-    passbyvaluecall(websiteURL);
-    
-    system.debug('after passbyvalue:' + websiteURL);
-   }
+  // PMD Violation: Unused private method
+  private void unusedHelper() {
+    Integer a = 5;
+  }
 
-   // PMD Violation: Method name not in camelCase, and type capitalization
-   public void passbyvaluecall(string websiteURLvalue)
-   {
-       // PMD Violation: Unused assignment
-       websiteURLvalue = 'www.salesforce.com';
-   }
+  public void mainValueMethod() {
+    String websiteURL = 'www.apexhours.com';
+
+    try {
+      Integer x = 10 / 0;
+    } catch (Exception e) {
+      // PMD Violation: Empty catch block
+    }
+
+    // PMD Violation: Empty if statement
+    if (websiteURL == 'www.apexhours.com') {
+    }
+
+    // PMD Violation: Hardcoded ID
+    Id someRecord = '001ABC000000XYZ';
+
+    // PMD Violation: Deep nesting
+    if (true) {
+      if (true) {
+        if (true) {
+          if (true) {
+            System.debug('Very deeply nested!');
+          }
+        }
+      }
+    }
+
+    passByValueCall(websiteURL);
+  }
+
+  public void passByValueCall(String websiteURLValue) {
+    websiteURLValue = 'www.salesforce.com';
+  }
 }
